@@ -23,8 +23,13 @@
             <input type="text" id="lastName">
         </div>
 
-        <div class="update">
-            <button type="button" onclick="console.log(document.getElementById('lastName').value)">Update</button>
+        <div class="actions">
+            <div class="command">
+                <button type="button" onclick="console.log(document.getElementById('lastName').value)">Log In</button>
+            </div>
+            <div class="command">
+                <button type="button" onclick="document.getElementById('name').value = ' '; document.getElementById('lastName').value = ' '">Reset</button>
+            </div>
         </div>
     </div>
     <script src="js/demo.js"></script>

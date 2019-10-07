@@ -27,8 +27,13 @@ input {
   box-sizing: border-box;
 }
 
-.update {
+.actions {
   text-align: center;
+}
+
+.command {
+  padding: 12px 20px;
+  display: inline-block;
 }
 
 button {
