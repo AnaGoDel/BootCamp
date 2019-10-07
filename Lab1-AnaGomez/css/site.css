@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+}
+
+.picture {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 32px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.update {
+  text-align: center;
+}
+
+button {
+  background-color: #c7b93e;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  font-size: 16px;
+}
