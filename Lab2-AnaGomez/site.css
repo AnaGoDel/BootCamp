@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-title > h2 {
+  text-align: left;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.review-body {
+  padding: 5px;
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.hotel-data {
+  border: 1px solid #757575;
+  background-color: antiquewhite;
+  flex: 75%;
+  padding: 10px;
+  margin: 5px 10px 5px 10px;
+  display: flex;
+}
+
+.hotel-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.hotel-location {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.hotel-img {
+  max-width: 40%;
+  margin: 5px 10px 5px 10px;
+}
+
+.hotel-rating {
+  border: 1px solid #757575;
+  background-color: antiquewhite;
+  flex: 25%;
+  padding: 10px;
+  margin: 5px 10px 5px 10px;
+}
